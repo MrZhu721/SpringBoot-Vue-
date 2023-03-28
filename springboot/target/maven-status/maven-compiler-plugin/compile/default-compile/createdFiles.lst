@@ -1,0 +1,16 @@
+com\example\demo\DemoApplication.class
+com\example\demo\controller\NewsController.class
+com\example\demo\dao\BookShelfDao.class
+com\example\demo\pojo\BookShelf.class
+com\example\demo\dao\NewsDao.class
+com\example\demo\controller\UserController.class
+com\example\demo\controller\BookController.class
+com\example\demo\controller\FileController.class
+com\example\demo\pojo\News.class
+com\example\demo\dao\BookDao.class
+com\example\demo\common\MybatisPlusConfig.class
+com\example\demo\controller\BookShelfController.class
+com\example\demo\pojo\User.class
+com\example\demo\common\Result.class
+com\example\demo\dao\UserDao.class
+com\example\demo\pojo\Book.class

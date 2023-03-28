@@ -1,0 +1,21 @@
+server.port: 9090
+
+#      druid
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springboot-vue?serverTimezone=UTC&characterEncoding=utf8&Unicode=useSSL=false
+    username: root
+    password: 123456
+#    时间格式初始化
+  jackson:
+    date-format: yyyy-MM-dd
+#    文件上传限制
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+
+#spring.servlet.multipart.max-file-size=100MB
+#spring.servlet.multipart.max-request-size=1000MB
+
